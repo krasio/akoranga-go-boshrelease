@@ -1,0 +1,7 @@
+---
+name: akoranga-go
+
+dependencies: []
+
+files:
+- akoranga-go-boshrelease/akoranga-go-bosh-0.0.2-linux-amd64.tgz

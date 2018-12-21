@@ -1,0 +1,7 @@
+set -e
+
+VERSION=bosh-0.0.2
+
+tar -xzvf akoranga-go-boshrelease/akoranga-go-${VERSION}-linux-amd64.tgz -C ${BOSH_INSTALL_TARGET}/
+chmod +x ${BOSH_INSTALL_TARGET}/akoranga-go-${VERSION}-linux-amd64
+ln ${BOSH_INSTALL_TARGET}/akoranga-go-${VERSION}-linux-amd64 ${BOSH_INSTALL_TARGET}/akoranga-go
