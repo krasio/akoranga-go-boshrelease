@@ -7,4 +7,8 @@ templates:
 packages:
 - akoranga-go
 
+provides:
+- name: ingress
+  type: http
+
 properties: {}
